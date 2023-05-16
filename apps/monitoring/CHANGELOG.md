@@ -1,5 +1,11 @@
 # saleor-app-monitoring
 
+## 0.6.4
+
+### Patch Changes
+
+- 201706a: New change 4
+
 ## 0.6.3
 
 ### Patch Changes
