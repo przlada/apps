@@ -1,5 +1,11 @@
 # saleor-app-monitoring
 
+## 0.6.6
+
+### Patch Changes
+
+- fb22b05: Patch change
+
 ## 0.6.5
 
 ### Patch Changes
