@@ -1,5 +1,11 @@
 # saleor-app-monitoring
 
+## 0.6.3
+
+### Patch Changes
+
+- 73d1c6d: Patch changes
+
 ## 0.6.2
 
 ### Patch Changes
