@@ -16,7 +16,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "generate": "turbo run generate",
     "prepare": "husky install",
-    "ci:publish": "echo \"publishing...\""
+    "ci:publish": "pnpm changeset tag && git push --follow-tags"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
