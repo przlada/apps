@@ -1,5 +1,12 @@
 # saleor-app-monitoring
 
+## 0.6.2
+
+### Patch Changes
+
+- 92069ac: Test changelog 2
+- 7ce77df: Next patch
+
 ## 0.6.1
 
 ### Patch Changes
