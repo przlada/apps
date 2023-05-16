@@ -1,5 +1,11 @@
 # saleor-app-monitoring
 
+## 0.6.7
+
+### Patch Changes
+
+- f9013af: Patch change
+
 ## 0.6.6
 
 ### Patch Changes
