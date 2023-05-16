@@ -1,5 +1,11 @@
 # saleor-app-monitoring
 
+## 0.7.1
+
+### Patch Changes
+
+- 1414504: Patch change
+
 ## 0.7.0
 
 ### Minor Changes
