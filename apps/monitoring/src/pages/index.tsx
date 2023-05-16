@@ -25,7 +25,7 @@ const IndexPage: NextPage = () => {
 
   return (
     <div>
-      <h1>Saleor Monitoring change</h1>
+      <h1>Saleor Monitoring change 3</h1>
       <p>Install App in Saleor to use it</p>
     </div>
   );
