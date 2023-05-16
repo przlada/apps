@@ -1,5 +1,11 @@
 # saleor-app-monitoring
 
+## 0.7.0
+
+### Minor Changes
+
+- e91f36e: Minor change
+
 ## 0.6.5
 
 ### Patch Changes
