@@ -3,7 +3,7 @@ name: Open release
 on:
   push:
     branches:
-      - main
+      - "0.6"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
