@@ -9,8 +9,7 @@
     "lint": "next lint",
     "lint:fix": "eslint --fix .",
     "generate": "graphql-codegen",
-    "test": "vitest",
-    "ci:publish": "echo \"publishing monitoring...\""
+    "test": "vitest"
   },
   "saleor": {
     "schemaVersion": "3.10"
