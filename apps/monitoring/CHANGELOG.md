@@ -1,5 +1,11 @@
 # saleor-app-monitoring
 
+## 0.7.3
+
+### Patch Changes
+
+- c8c758d: Patch
+
 ## 0.7.2
 
 ### Patch Changes
