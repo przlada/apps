@@ -24,7 +24,7 @@ const IndexPage: NextPage = () => {
   return (
     <Box>
       <Text as={"h1"} variant={"hero"}>
-        Saleor Invoices
+        Saleor Invoices 2
       </Text>
       <Text as={"p"}>This is Saleor App that allows invoices generation</Text>
       <Text as={"p"}>
