@@ -1,5 +1,11 @@
 # saleor-app-invoices
 
+## 1.13.1
+
+### Patch Changes
+
+- 026766a: Change in invoice
+
 ## 1.13.0
 
 ### Minor Changes
