@@ -15,5 +15,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         REPOSITORY: ${{ github.repository }}
         PR_URL: ${{github.event.pull_request.html_url}}
-        PR_NUMBER: $${{ github.event.pull_request.number }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
         CREATOR: ${{ github.event.pull_request.user.login }}
