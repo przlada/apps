@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Assign PR to creator
-      run: gh pr --repo $REPOSITORY edit $PR_URL --add-assignee $CREATOR
+      # run: gh pr --repo $REPOSITORY edit $PR_URL --add-assignee $CREATOR
+      run: gh pr edit $PR_URL --add-assignee $CREATOR
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         REPOSITORY: ${{ github.repository }}
