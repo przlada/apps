@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Assign PR to creator
-      run: gh pr edit "${{ github.event.pull_request.html_url }}" --add-assignee "${{ github.event.pull_request.user.login }}"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR_URL: ${{ github.event.pull_request.html_url }}
+        CREATOR: ${{ github.event.pull_request.user.login }}
+      run: gh pr edit "$PR_URL" --add-assignee "$CREATOR"
