@@ -2,13 +2,13 @@ name: Assign PR to creator
 
 on:
   pull_request:
-    types: [opened]
+    # types: [opened]
 
 jobs:
   assign_creator:
     runs-on: ubuntu-latest
     steps:
     - name: Assign PR to creator
-      uses: thomaseizinger/assign-pr-creator-action@v1.0.0
+      uses: thomaseizinger/assign-pr-creator-action@d7f25d4e70a3f34aaccb7bae2b316adeb46459c7
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
